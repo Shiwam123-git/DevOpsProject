@@ -1,0 +1,15 @@
+app :  v1
+kind : service 
+metadata :
+    name :  Amazon-prime
+    lables:
+        app: Amazon-prime
+spec :
+    port :
+        - name : http
+          port : 3000
+          targetport : 3000
+          protocol: TCP
+    selector : 
+        app: Amazon-Prime
+    type: LoadBalancer                  
