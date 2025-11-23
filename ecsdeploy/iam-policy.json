@@ -1,0 +1,20 @@
+{
+    "version" : "2012-10-17" ,
+     
+    "statement" : [
+        {
+            "effect" : "allow",
+            "action" : [
+                "ecr:GetDownloadUrlForLayer",
+                "ecr:BatchGetImage",    
+                "ecr:BatchCheckLayerAvailability",
+                "ecr:GetAuthorizationToken",
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "resource" : "*"
+
+        
+        }
+    ]
+}

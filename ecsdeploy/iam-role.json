@@ -1,0 +1,15 @@
+{
+    "version": "2012-10-17",
+    "statement": [
+        {   
+            "sid" : "",
+            "effect": "allow",
+            "principal": {
+                "service": "ecs-tasks.amazonaws.com"
+            },
+            "action": "sts:AssumeRole"
+        }
+    ]
+
+        
+}

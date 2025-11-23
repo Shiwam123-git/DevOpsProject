@@ -78,6 +78,7 @@ sudo systemctl enable jenkins
 sudo systemctl start Jenkins
 
 
+
 echo "Installing kubectl..."
 
 curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.30.4/2024-09-11/bin/linux/amd64/kubectl
